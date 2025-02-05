@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="animated.css">       
+    </head>
+
+    <body>
+        <main class="wrapper">
+            <div class="container">
+                <img src="images/timer.png" alt="Time" style="width:100px;">
+                <div id="timer">00:00</div>
+            </div>
+
+            <!-- <img class="goal" src="goal.webp" style="top: 730px;"> -->
+            <div class="frameWrapper">
+                <div class="descDiv">
+                    <img src = "images/desc.png" style="height: 540px;">
+                    <div class="desc">
+                        <p>No Heal</p>
+                        <p class="title">Avoid the obstacles!</p>
+                        <p>This is you:</p>
+                        <img src="images/chara.png" style="width: 40px;">
+                        <p>Use arrow keys to move around.</p>
+                        <p>Survive as long as you can, good luck!</p>
+                    </div>
+                </div>
+
+                <div class="frameDiv">
+                    <img class="frame" src = "images/frame.png" style="width:800px;">
+                    <img id="chara" src="images/chara.png" style="left: 700px; top: 500px;">
+                    <div id="overlay">
+                        <p class="gameOver">Game Over!</p>
+                        <p class="finalTime">Final Time:</p>
+                        <div id="timeText">00:00</div>
+                        <div id ="overlay-content">
+                            <a href="noheal.html"><button>Retry</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="modes">
+                <a href="index.html"><button>Normal</button></a>
+                <a href="hard.html"><button>Hard Mode</button></a>
+                <a href="noheal.html"><button>No Heal</button></a>
+            </div>
+            
+            <div id="health-bar">
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+            </div>
+
+            
+
+            
+
+        </main>
+
+        
+        <script src="noheal.js"></script>
+    </body>
+
+</html>
